@@ -1,0 +1,7 @@
+build/
+baked/
+__pycache__/
+*.pom
+*.Red32n
+*.log
+.vs/
