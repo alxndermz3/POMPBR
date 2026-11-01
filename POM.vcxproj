@@ -42,6 +42,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/PDBALTPATH:POM.pdb %(AdditionalOptions)</AdditionalOptions>
       <!-- The game's own D3D11 objects are used, so no d3d11.lib. ImGui's DX11 backend compiles its shaders with d3dcompiler. -->
       <AdditionalDependencies>d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>

@@ -7,8 +7,8 @@ A plugin for Call of Duty: Black Ops II on the REDACTED client (`t6mpv43.exe`) t
 - **PBR:** GGX highlights, Smith shadowing, anti-sparkle, highlights on omni lights and screen-space reflections on everything lit.
   It's on as soon as the plugin loads, and works from the game's own gloss and spec maps, so it needs no new textures.
 
-The plugin file is `POM.Red32n`, its settings are in `POM.ini`, and it goes in REDACTED's `Plugins` folder. PBR hasn't been tested
-in the game yet: everything below marked as tested was tested through the game's own shaders, outside the game.
+The plugin file is `POM.Red32n`, its settings are in `POM.ini`, and it goes in REDACTED's `Plugins` folder. Releases have it in a zip,
+ready to drag in.
 
 ## Using it
 
@@ -148,7 +148,7 @@ person gun has its own field of view. The constants are offsets from 1, so an un
 - There's no per-surface roughness or metal yet, and no loading of custom maps: PBR uses what the game's textures say, and the
   sliders apply to everything.
 - PBR omni highlights don't get POM's relief shadows.
-- The first map load takes a moment longer while shaders are made, and `POM.log` says how long.
+- The first map load takes about a second longer while shaders are made, and `POM.log` says how long.
 
 ## Files
 
